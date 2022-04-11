@@ -1,0 +1,85 @@
+$ python3 
+----
+
+TIPOS DE DATOS
+
+NUMEROS ENTEROS
+NUMEROS FLOTANTES
+STRINGS TEXTO
+BOOLEANOS
+
+---
+
+OPERADORES LOGICOS
+
+and 
+    para comparar si dos valores son verdaderos.
+or 
+    para comparar si dos valores son falsos.
+not 
+    para invertir el valor booleano.
+
+EXAMPLES:
+
+    $ feliz = True
+    $ millonario = False
+    $ feliz and millonario
+    $ False
+
+    $ feliz or millonario
+    $ True
+
+    $ not millonario
+    $ True
+
+POTENCIAS
+
+    5 ** 2 = 25
+    6 ** 2 = 36
+
+DIVISION
+
+    25 / 5 = 5
+
+    26 // 5 = 5 (OMITE EL MODULO RESTANTE)
+
+    54 % 5 = 4 (SOLO MUESTRA EL MODULO SOBRANTE)
+
+
+---
+
+
+VARIABLES
+
+- Las variabels en PYTHON se pueden reescribir y manipular facilmente
+- Siempre en minusculas
+- Palabras separadas po '_' 
+- No pueden comenzar con numero
+
+Se pueden MULTIPLICAR VARIABLES EX:
+
+    nombre = 'matias'
+    $ nombre * 4
+    $ 'matiasmatiasmatiasmatias'
+
+---
+
+FUNCIONES RESERVADAS
+
+Input(" ") 
+    Pide un STRING:
+        $ numero = Input('...')
+int() 
+    Convierte un string en un número entero.
+    
+str() 
+    Convierte números decimales y/o enteros a strings.
+
+float() 
+    Convierte un dato en un numero decimal
+    
+round(value, cantidadDecimales)
+    define cantidad de decimales de un numero
+
+---
+
